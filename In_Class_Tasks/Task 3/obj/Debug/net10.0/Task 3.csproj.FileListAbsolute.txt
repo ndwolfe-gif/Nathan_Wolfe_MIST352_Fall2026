@@ -1,0 +1,15 @@
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.AssemblyInfoInputs.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.AssemblyInfo.cs
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.csproj.CoreCompileInputs.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.sourcelink.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\bin\Debug\net10.0\Task 3.exe
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\bin\Debug\net10.0\Task 3.deps.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\bin\Debug\net10.0\Task 3.runtimeconfig.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\bin\Debug\net10.0\Task 3.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\bin\Debug\net10.0\Task 3.pdb
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\refint\Task 3.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.pdb
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\Task 3.genruntimeconfig.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task 3\obj\Debug\net10.0\ref\Task 3.dll

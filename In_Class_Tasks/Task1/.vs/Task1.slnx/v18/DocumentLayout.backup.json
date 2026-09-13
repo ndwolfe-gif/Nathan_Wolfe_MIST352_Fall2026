@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B5EEC19-C3B0-4ACB-847B-3C5C3B66C951}|Task1.csproj|d:\\mist352_fall2026\\nathan_wolfe_mist352_fall2026\\in_class_tasks\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B5EEC19-C3B0-4ACB-847B-3C5C3B66C951}|Task1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|d:\\mist352_fall2026\\nathan_wolfe_mist352_fall2026\\in_class_tasks\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\danew\\source\\repos\\TextFile1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +27,20 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-25T17:08:45.983Z",
+              "WhenOpened": "2026-08-25T19:55:50.879Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TextFile1.txt",
+              "DocumentMoniker": "C:\\Users\\danew\\source\\repos\\TextFile1.txt",
+              "ToolTip": "C:\\Users\\danew\\source\\repos\\TextFile1.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-08-25T19:55:44.923Z"
             }
           ]
         }
