@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task 3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B6B7DFFB-DB6D-4160-BE8B-A839620C9017}|Task 3.csproj|d:\\mist352_fall2026\\nathan_wolfe_mist352_fall2026\\in_class_tasks\\task 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6B7DFFB-DB6D-4160-BE8B-A839620C9017}|Task 3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AAC03CF5-BE49-437A-6024-AC800DDEB2C2}|Task 3.csproj|d:\\mist352_fall2026\\nathan_wolfe_mist352_fall2026\\in_class_tasks\\task 3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAC03CF5-BE49-437A-6024-AC800DDEB2C2}|Task 3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAC03CF5-BE49-437A-6024-AC800DDEB2C2}|Task 3.csproj|d:\\mist352_fall2026\\nathan_wolfe_mist352_fall2026\\in_class_tasks\\task 3\\task 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AAC03CF5-BE49-437A-6024-AC800DDEB2C2}|Task 3.csproj|solutionrelative:task 3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +18,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task 3.csproj",
+              "DocumentMoniker": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task 3\\Task 3.csproj",
+              "RelativeDocumentMoniker": "Task 3.csproj",
+              "ToolTip": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task 3\\Task 3.csproj",
+              "RelativeToolTip": "Task 3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-03T20:26:27.856Z"
             },
             {
               "$type": "Document",
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\MIST352_Fall2026\\Nathan_Wolfe_MIST352_Fall2026\\In_Class_Tasks\\Task 3\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBMAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T15:57:21.984Z",
               "EditorCaption": ""

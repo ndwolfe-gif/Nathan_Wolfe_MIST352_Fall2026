@@ -1,0 +1,15 @@
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\bin\Debug\net10.0\psuedo_code.exe
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\bin\Debug\net10.0\psuedo_code.deps.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\bin\Debug\net10.0\psuedo_code.runtimeconfig.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\bin\Debug\net10.0\psuedo_code.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\bin\Debug\net10.0\psuedo_code.pdb
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.GeneratedMSBuildEditorConfig.editorconfig
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.AssemblyInfoInputs.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.AssemblyInfo.cs
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.csproj.CoreCompileInputs.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.sourcelink.json
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\refint\psuedo_code.dll
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.pdb
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\psuedo_code.genruntimeconfig.cache
+D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\psuedo_code\obj\Debug\net10.0\ref\psuedo_code.dll
