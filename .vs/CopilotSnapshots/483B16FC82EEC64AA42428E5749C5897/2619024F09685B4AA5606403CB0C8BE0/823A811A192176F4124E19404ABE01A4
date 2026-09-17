@@ -1,0 +1,57 @@
+﻿namespace Task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {//greeting
+            Console.WriteLine("Thank you for shopping with us!");
+            Console.WriteLine("");
+
+            Console.WriteLine("Are you a member of our loyalty program? (yes/no)");
+            string isMember = Console.ReadLine().ToLower();
+
+            if (isMember == "yes")
+            {
+                Console.WriteLine("Great! You will receive a discount based on your order total.");
+            }
+            else if (isMember == "no")
+            {
+                Console.WriteLine("No worries! You may sign up here.");
+                Console.WriteLine("https://www.example.com/loyalty-program");
+            }
+            else
+            {
+                Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                return; // brings them back to the start of the program if they input anything other than yes or no
+            }
+
+            // gathering total from user
+            Console.WriteLine("Please enter your total below:");
+            // getting the order total from the user and converting it to be used as a decimal 
+            double Ordertotal = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine($"Your order total is: ${Ordertotal:F2}");
+
+            // my if statments on the order total and the discount based on the order total
+            // if they put yes to being a member of the loyalty program they will get a discount based on their order total
+
+            if (isMember == "yes")
+            {
+                if (Ordertotal >= 100)
+                {
+                    double discount = Ordertotal * 0.15;
+                    double discountedTotal = Ordertotal - discount;
+                    Console.WriteLine($"Congrats you get 15% off! Your discounted total is: ${discountedTotal:F2}");
+                }
+                else if (Ordertotal < 100)
+                {
+                    double discount = Ordertotal * 0.10;
+                    double discountedTotal = Ordertotal - discount;
+                    Console.WriteLine($"Congrats you get 10% off! Your discounted total is: ${discountedTotal:F2}");
+                }
+            }
+            else if (isMember == "no")
+            {
+                Console.WriteLine("You do not qualify for a discount.");
+            } 
+        
+           
