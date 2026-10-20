@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Program.cs" Link="Program.cs" />
+    <Compile Include="D:\MIST352_Fall2026\Nathan_Wolfe_MIST352_Fall2026\In_Class_Tasks\Task6\Program.cs" Link="Program.cs" />
+  </ItemGroup>
+
+</Project>

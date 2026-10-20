@@ -1,4 +1,6 @@
-﻿namespace Task5
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Task5
 {
     internal class Program
     {
@@ -7,29 +9,50 @@
             Console.WriteLine("Give me a number between 1 and 10");
             int number = int.Parse(Console.ReadLine());
 
-            if (number >= 1 && number <= 10)
+            if (IsValidRows(number) == true)
             {
-                Console.WriteLine("good number");
-               Console.WriteLine("");
-                Console.WriteLine("");
-                int introw = 1;
-                while (introw <= number)
+                PrintStars(number);
+                Console.WriteLine("There are " + CountRows(number) + " rows");
 
-                {                     int star = 1;
-                    for(star = 1; star <= introw; star++)
-                    {
-                        Console.Write("*");
-                    
-                    }
-                    Console.WriteLine();
-                    introw++;
-                }
             }
             else
             {
                 Console.WriteLine("invalid number");
             }
 
+           
+        }
+            static bool IsValidRows(int number)
+            {
+                if (number >= 1 && number <= 10)
+                    return true;
+                else
+                    return false;
+            }
+            static int CountRows(int number)
+            {
+                int count = 0;
+                for (int index = 1; index <= number; index++)
+                {
+                    count++;
+                }
+                return count;
+            }
+            static void PrintStars(int number)
+            {
+                int introw = 1;
+                while (introw <= number)
+                {
+                    int star = 1;
+                    while (star <= introw)
+                    {
+                        Console.Write("*");
+                        star++;
+                    }
+                    Console.WriteLine();
+                    introw++;
+                }
+            }
         }
     }
-}
+
