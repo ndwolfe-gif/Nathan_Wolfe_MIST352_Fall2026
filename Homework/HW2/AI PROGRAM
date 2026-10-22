@@ -1,0 +1,189 @@
+// Nathan Wolfe
+// MIST352 - HW2_LLM (Student Records Program)
+//
+// LLM used: Claude Opus 5.5 (Anthropic), via claude.ai
+// Prompt: "llm coding assignment here are the directions. Complete the llm part where
+//          i need an ai to complete the assignment" (with the HW2 PDF attached, which
+//          describes the menu options A-D and X, the grade rules, and the expected output)
+
+using System;
+using System.Globalization;
+using System.IO;
+
+namespace HW2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] students = ReadData("data.txt");
+
+            // Parse the raw lines into parallel arrays
+            int count = students.Length;
+            string[] ids = new string[count];
+            string[] names = new string[count];
+            double[] gpas = new double[count];
+            int valid = 0;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (TryParseStudent(students[i], out string id, out string name, out double gpa))
+                {
+                    ids[valid] = id;
+                    names[valid] = name;
+                    gpas[valid] = gpa;
+                    valid++;
+                }
+            }
+
+            bool running = true;
+            while (running)
+            {
+                DisplayMenu();
+                string choice = (Console.ReadLine() ?? "").Trim().ToUpper();
+                Console.WriteLine();
+
+                switch (choice)
+                {
+                    case "A":
+                        PrintStudentTable(ids, names, gpas, valid);
+                        break;
+                    case "B":
+                        CountByLetterGrade(gpas, valid);
+                        break;
+                    case "C":
+                        ShowAverageGpa(gpas, valid);
+                        break;
+                    case "D":
+                        ShowHighestGpaStudent(names, gpas, valid);
+                        break;
+                    case "X":
+                        Console.WriteLine("Good Bye!");
+                        running = false;
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option.");
+                        Console.WriteLine("========================================");
+                        break;
+                }
+                Console.WriteLine();
+            }
+        }
+
+        // Reads all lines from the data file
+        static string[] ReadData(string fileName)
+        {
+            try
+            {
+                string[] lines = File.ReadAllLines(fileName);
+                Console.WriteLine("Data read successfully.");
+                return lines;
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Error: Could not read file. Returning empty array.");
+                return new string[0];
+            }
+        }
+
+        // Splits a line like "1001,John Smith,3.45" (comma, tab, pipe or semicolon)
+        static bool TryParseStudent(string line, out string id, out string name, out double gpa)
+        {
+            id = "";
+            name = "";
+            gpa = 0;
+
+            if (string.IsNullOrWhiteSpace(line))
+                return false;
+
+            string[] parts = line.Split(new char[] { ',', '\t', '|', ';' });
+            if (parts.Length < 3)
+                return false;
+
+            id = parts[0].Trim();
+            name = parts[1].Trim();
+
+            // Skips a header row such as "ID,Name,GPA"
+            return double.TryParse(parts[parts.Length - 1].Trim(), NumberStyles.Float,
+                                   CultureInfo.InvariantCulture, out gpa);
+        }
+
+        static void DisplayMenu()
+        {
+            Console.WriteLine();
+            Console.WriteLine("MENU");
+            Console.WriteLine("Select option:");
+            Console.WriteLine("A - Print Student Table");
+            Console.WriteLine("B - Count Students by Letter Grade");
+            Console.WriteLine("C - Show Average GPA");
+            Console.WriteLine("D - Show Highest GPA Student");
+            Console.WriteLine("X - Exit");
+            Console.WriteLine();
+        }
+
+        // Option A
+        static void PrintStudentTable(string[] ids, string[] names, double[] gpas, int count)
+        {
+            Console.WriteLine($"{"ID",-8}{"Name",-16}{"GPA"}");
+            Console.WriteLine(new string('-', 30));
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine($"{ids[i],-8}{names[i],-16}{gpas[i]:F2}");
+            }
+        }
+
+        // Option B
+        static void CountByLetterGrade(double[] gpas, int count)
+        {
+            int a = 0, b = 0, c = 0, d = 0;
+            for (int i = 0; i < count; i++)
+            {
+                if (gpas[i] >= 3.7) a++;
+                else if (gpas[i] >= 3.0) b++;
+                else if (gpas[i] >= 2.0) c++;
+                else d++;
+            }
+
+            Console.WriteLine("Grade Counts");
+            Console.WriteLine($"A: {a}");
+            Console.WriteLine($"B: {b}");
+            Console.WriteLine($"C: {c}");
+            Console.WriteLine($"D: {d}");
+        }
+
+        // Option C
+        static void ShowAverageGpa(double[] gpas, int count)
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("No student data available.");
+                return;
+            }
+
+            double total = 0;
+            for (int i = 0; i < count; i++)
+                total += gpas[i];
+
+            Console.WriteLine($"Average GPA: {total / count:F2}");
+        }
+
+        // Option D
+        static void ShowHighestGpaStudent(string[] names, double[] gpas, int count)
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("No student data available.");
+                return;
+            }
+
+            int top = 0;
+            for (int i = 1; i < count; i++)
+            {
+                if (gpas[i] > gpas[top])
+                    top = i;
+            }
+
+            Console.WriteLine($"Top Student: {names[top]} with GPA {gpas[top]}");
+        }
+    }
+}
